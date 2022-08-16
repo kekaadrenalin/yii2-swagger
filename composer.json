@@ -1,0 +1,40 @@
+{
+  "name": "kekaadrenalin/yii2-swagger",
+  "description": "yii2 swagger3.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "kekaadrenalin"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-json": "*",
+    "zircote/swagger-php": "^3.0"
+  },
+  "require-dev": {
+    "yiisoft/yii2": "^2.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer" : true
+    },
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "kekaadrenalin\\swagger\\": "src"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
