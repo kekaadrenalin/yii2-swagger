@@ -1,6 +1,6 @@
 # Yii2 Swagger Extension
 
-First of all, please make sure you have some basic concepts of Swagger OpenAPI and Swagger UI.
+First, please make sure you have some basic concepts of Swagger OpenAPI and Swagger UI.
 
 Then you can start with following steps:
 
