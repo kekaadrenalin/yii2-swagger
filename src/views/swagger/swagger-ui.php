@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Swagger UI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="SwaggerUI" />
     <link rel="stylesheet" type="text/css"
-          href="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/3.21.0/swagger-ui.css">
+          href="https://unpkg.com/swagger-ui-dist@4.5.0/swagger-ui.css">
     <style>
         html {
             box-sizing: border-box;
@@ -26,8 +28,8 @@
 </head>
 <body>
 <div id="swagger-ui"></div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/3.21.0/swagger-ui-bundle.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/3.21.0/swagger-ui-standalone-preset.js"></script>
+<script src="https://unpkg.com/swagger-ui-dist@4.5.0/swagger-ui-bundle.js" crossorigin></script>
+<script src="https://unpkg.com/swagger-ui-dist@4.5.0/swagger-ui-standalone-preset.js" crossorigin></script>
 <script>
     window.onload = function () {
         //<editor-fold desc="Changeable Configuration Block">
