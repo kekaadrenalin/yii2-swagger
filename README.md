@@ -4,7 +4,7 @@ First of all, please make sure you have some basic concepts of Swagger OpenAPI a
 
 Then you can start with following steps:
 
-1. Install `tanghengzhi/yii2-swagger` extension
+1. Install `kekaadrenalin/yii2-swagger` extension
 
 ```
 composer require kekaadrenalin/yii2-swagger --dev
