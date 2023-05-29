@@ -10,7 +10,7 @@
   "require": {
     "php": ">=7.1",
     "ext-json": "*",
-    "zircote/swagger-php": "^3.3.6"
+    "zircote/swagger-php": "^3.0.0"
   },
   "require-dev": {
     "yiisoft/yii2": "^2.0"
