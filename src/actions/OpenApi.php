@@ -3,9 +3,9 @@
 namespace kekaadrenalin\swagger\actions;
 
 use Exception;
-use OpenApi\Generator;
 use yii\base\Action;
 use Yii;
+use function OpenApi\scan;
 
 class OpenApi extends Action
 {
@@ -23,7 +23,7 @@ class OpenApi extends Action
         }
 
         try {
-            $openapi = Generator::scan($docDirectories);
+            $openapi = scan($docDirectories);
             header('Access-Control-Allow-Origin: *');
             header('Content-Type: application/json');
             echo $openapi->toJson();
