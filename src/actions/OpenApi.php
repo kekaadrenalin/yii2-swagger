@@ -33,7 +33,7 @@ class OpenApi extends Action
                 $exception->getFile(),
                 $exception->getMessage(),
                 $exception->getLine(),
-            ], JSON_THROW_ON_ERROR);
+            ]);
         }
     }
 }
